@@ -1,0 +1,105 @@
+2018-05-24 12:45:51.928 [ main ] - [ INFO  ] [ c.a.b.d.c.event.WelcomeLogoApplicationListener : 53 ] - 
+
+  ████████▄  ███    █▄  ▀█████████▄  ▀█████████▄   ▄██████▄  
+  ███   ▀███ ███    ███   ███    ███   ███    ███ ███    ███ 
+  ███    ███ ███    ███   ███    ███   ███    ███ ███    ███ 
+  ███    ███ ███    ███  ▄███▄▄▄██▀   ▄███▄▄▄██▀  ███    ███ 
+  ███    ███ ███    ███ ▀▀███▀▀▀██▄  ▀▀███▀▀▀██▄  ███    ███ 
+  ███    ███ ███    ███   ███    ██▄   ███    ██▄ ███    ███ 
+  ███   ▄███ ███    ███   ███    ███   ███    ███ ███    ███ 
+  ████████▀  ████████▀  ▄█████████▀  ▄█████████▀   ▀██████▀  
+                                                             
+
+ :: Dubbo Spring Boot (v0.1.0) : https://github.com/dubbo/dubbo-spring-boot-project
+ :: Dubbo (v2.0.1) : https://github.com/alibaba/dubbo
+ :: Google group : http://groups.google.com/group/dubbo
+
+2018-05-24 12:45:51.936 [ main ] - [ INFO  ] [ c.a.b.d.c.e.OverrideDubboConfigApplicationListener : 67 ] - Dubbo Config was overridden by externalized configuration {dubbo.application.name=ticket-provider, dubbo.registry.address=zookeeper://127.0.0.1:2181, dubbo.scan.base-packages=com.gf.service}
+2018-05-24 12:45:52.060 [ main ] - [ INFO  ] [ com.gf.TicketProviderApplication : 50 ] - Starting TicketProviderApplication on huanchu-mbp.local with PID 1448 (/Users/huanchu/Documents/sourcecode/springboot/springboot-dubbo/ticket-provider/target/classes started by huanchu in /Users/huanchu/Documents/sourcecode/springboot/springboot-dubbo)
+2018-05-24 12:45:52.061 [ main ] - [ DEBUG ] [ com.gf.TicketProviderApplication : 53 ] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-05-24 12:45:52.062 [ main ] - [ INFO  ] [ com.gf.TicketProviderApplication : 659 ] - No active profile set, falling back to default profiles: default
+2018-05-24 12:45:52.898 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 122 ] - The dubbo config bean definition [name : com.alibaba.dubbo.config.ApplicationConfig#0, class : com.alibaba.dubbo.config.ApplicationConfig] has been registered.
+2018-05-24 12:45:52.899 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 144 ] - The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] has been registered.
+2018-05-24 12:45:52.899 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 122 ] - The dubbo config bean definition [name : com.alibaba.dubbo.config.RegistryConfig#0, class : com.alibaba.dubbo.config.RegistryConfig] has been registered.
+2018-05-24 12:45:52.899 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 144 ] - The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.RegistryConfig#0] has been registered.
+2018-05-24 12:45:53.457 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2018-05-24 12:45:53.465 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2018-05-24 12:45:53.465 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-24 12:45:53.468 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/huanchu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-24 12:45:53.535 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2018-05-24 12:45:54.045 [ main ] - [ INFO  ] [ c.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor : 73 ] - The properties of bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] have been binding by values : [bean property 'name']
+2018-05-24 12:45:54.049 [ main ] - [ INFO  ] [ c.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor : 73 ] - The properties of bean [name : com.alibaba.dubbo.config.RegistryConfig#0] have been binding by values : [bean property 'address']
+2018-05-24 12:45:54.192 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8081"]
+2018-05-24 12:45:54.215 [ main ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2018-05-24 12:45:54.231 [ main ] - [ INFO  ] [ com.gf.TicketProviderApplication : 59 ] - Started TicketProviderApplication in 2.554 seconds (JVM running for 3.428)
+2018-05-24 12:47:47.402 [ Thread-9 ] - [ INFO  ] [ c.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor : 252 ] - class com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2018-05-24 12:48:00.229 [ main ] - [ INFO  ] [ c.a.b.d.c.event.WelcomeLogoApplicationListener : 53 ] - 
+
+  ████████▄  ███    █▄  ▀█████████▄  ▀█████████▄   ▄██████▄  
+  ███   ▀███ ███    ███   ███    ███   ███    ███ ███    ███ 
+  ███    ███ ███    ███   ███    ███   ███    ███ ███    ███ 
+  ███    ███ ███    ███  ▄███▄▄▄██▀   ▄███▄▄▄██▀  ███    ███ 
+  ███    ███ ███    ███ ▀▀███▀▀▀██▄  ▀▀███▀▀▀██▄  ███    ███ 
+  ███    ███ ███    ███   ███    ██▄   ███    ██▄ ███    ███ 
+  ███   ▄███ ███    ███   ███    ███   ███    ███ ███    ███ 
+  ████████▀  ████████▀  ▄█████████▀  ▄█████████▀   ▀██████▀  
+                                                             
+
+ :: Dubbo Spring Boot (v0.1.0) : https://github.com/dubbo/dubbo-spring-boot-project
+ :: Dubbo (v2.0.1) : https://github.com/alibaba/dubbo
+ :: Google group : http://groups.google.com/group/dubbo
+
+2018-05-24 12:48:00.244 [ main ] - [ INFO  ] [ c.a.b.d.c.e.OverrideDubboConfigApplicationListener : 67 ] - Dubbo Config was overridden by externalized configuration {dubbo.application.name=ticket-provider, dubbo.registry.address=zookeeper://127.0.0.1:2181, dubbo.scan.base-packages=com.gf.service}
+2018-05-24 12:48:00.386 [ main ] - [ INFO  ] [ com.gf.TicketProviderApplication : 50 ] - Starting TicketProviderApplication on huanchu-mbp.local with PID 1453 (/Users/huanchu/Documents/sourcecode/springboot/springboot-dubbo/ticket-provider/target/classes started by huanchu in /Users/huanchu/Documents/sourcecode/springboot/springboot-dubbo)
+2018-05-24 12:48:00.387 [ main ] - [ DEBUG ] [ com.gf.TicketProviderApplication : 53 ] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-05-24 12:48:00.388 [ main ] - [ INFO  ] [ com.gf.TicketProviderApplication : 659 ] - No active profile set, falling back to default profiles: default
+2018-05-24 12:48:01.189 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 122 ] - The dubbo config bean definition [name : com.alibaba.dubbo.config.ApplicationConfig#0, class : com.alibaba.dubbo.config.ApplicationConfig] has been registered.
+2018-05-24 12:48:01.191 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 144 ] - The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] has been registered.
+2018-05-24 12:48:01.192 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 122 ] - The dubbo config bean definition [name : com.alibaba.dubbo.config.RegistryConfig#0, class : com.alibaba.dubbo.config.RegistryConfig] has been registered.
+2018-05-24 12:48:01.192 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 144 ] - The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.RegistryConfig#0] has been registered.
+2018-05-24 12:48:01.884 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2018-05-24 12:48:01.895 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2018-05-24 12:48:01.895 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-24 12:48:01.899 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/huanchu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-24 12:48:01.969 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2018-05-24 12:48:02.613 [ main ] - [ INFO  ] [ c.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor : 73 ] - The properties of bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] have been binding by values : [bean property 'name']
+2018-05-24 12:48:02.616 [ main ] - [ INFO  ] [ c.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor : 73 ] - The properties of bean [name : com.alibaba.dubbo.config.RegistryConfig#0] have been binding by values : [bean property 'address']
+2018-05-24 12:48:02.764 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8081"]
+2018-05-24 12:48:02.786 [ main ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2018-05-24 12:48:02.802 [ main ] - [ INFO  ] [ com.gf.TicketProviderApplication : 59 ] - Started TicketProviderApplication in 2.97 seconds (JVM running for 3.951)
+2018-05-24 12:50:55.840 [ Thread-10 ] - [ INFO  ] [ c.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor : 252 ] - class com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2018-05-24 12:51:01.669 [ main ] - [ INFO  ] [ c.a.b.d.c.event.WelcomeLogoApplicationListener : 53 ] - 
+
+  ████████▄  ███    █▄  ▀█████████▄  ▀█████████▄   ▄██████▄  
+  ███   ▀███ ███    ███   ███    ███   ███    ███ ███    ███ 
+  ███    ███ ███    ███   ███    ███   ███    ███ ███    ███ 
+  ███    ███ ███    ███  ▄███▄▄▄██▀   ▄███▄▄▄██▀  ███    ███ 
+  ███    ███ ███    ███ ▀▀███▀▀▀██▄  ▀▀███▀▀▀██▄  ███    ███ 
+  ███    ███ ███    ███   ███    ██▄   ███    ██▄ ███    ███ 
+  ███   ▄███ ███    ███   ███    ███   ███    ███ ███    ███ 
+  ████████▀  ████████▀  ▄█████████▀  ▄█████████▀   ▀██████▀  
+                                                             
+
+ :: Dubbo Spring Boot (v0.1.0) : https://github.com/dubbo/dubbo-spring-boot-project
+ :: Dubbo (v2.0.1) : https://github.com/alibaba/dubbo
+ :: Google group : http://groups.google.com/group/dubbo
+
+2018-05-24 12:51:01.676 [ main ] - [ INFO  ] [ c.a.b.d.c.e.OverrideDubboConfigApplicationListener : 67 ] - Dubbo Config was overridden by externalized configuration {dubbo.application.name=ticket-provider, dubbo.registry.address=zookeeper://127.0.0.1:2181, dubbo.scan.base-packages=com.gf.service}
+2018-05-24 12:51:01.865 [ main ] - [ INFO  ] [ com.gf.TicketProviderApplication : 50 ] - Starting TicketProviderApplication on huanchu-mbp.local with PID 1463 (/Users/huanchu/Documents/sourcecode/springboot/springboot-dubbo/ticket-provider/target/classes started by huanchu in /Users/huanchu/Documents/sourcecode/springboot/springboot-dubbo)
+2018-05-24 12:51:01.883 [ main ] - [ DEBUG ] [ com.gf.TicketProviderApplication : 53 ] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-05-24 12:51:01.884 [ main ] - [ INFO  ] [ com.gf.TicketProviderApplication : 659 ] - No active profile set, falling back to default profiles: default
+2018-05-24 12:51:02.637 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 122 ] - The dubbo config bean definition [name : com.alibaba.dubbo.config.ApplicationConfig#0, class : com.alibaba.dubbo.config.ApplicationConfig] has been registered.
+2018-05-24 12:51:02.638 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 144 ] - The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] has been registered.
+2018-05-24 12:51:02.639 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 122 ] - The dubbo config bean definition [name : com.alibaba.dubbo.config.RegistryConfig#0, class : com.alibaba.dubbo.config.RegistryConfig] has been registered.
+2018-05-24 12:51:02.639 [ main ] - [ INFO  ] [ c.a.d.c.s.c.annotation.DubboConfigBindingRegistrar : 144 ] - The BeanPostProcessor bean definition [com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : com.alibaba.dubbo.config.RegistryConfig#0] has been registered.
+2018-05-24 12:51:03.129 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8081"]
+2018-05-24 12:51:03.136 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2018-05-24 12:51:03.136 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-24 12:51:03.139 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/huanchu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-24 12:51:03.195 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2018-05-24 12:51:03.671 [ main ] - [ INFO  ] [ c.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor : 73 ] - The properties of bean [name : com.alibaba.dubbo.config.ApplicationConfig#0] have been binding by values : [bean property 'name']
+2018-05-24 12:51:03.674 [ main ] - [ INFO  ] [ c.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor : 73 ] - The properties of bean [name : com.alibaba.dubbo.config.RegistryConfig#0] have been binding by values : [bean property 'address']
+2018-05-24 12:51:03.857 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8081"]
+2018-05-24 12:51:03.887 [ main ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2018-05-24 12:51:03.906 [ main ] - [ INFO  ] [ com.gf.TicketProviderApplication : 59 ] - Started TicketProviderApplication in 2.621 seconds (JVM running for 3.675)
+2018-05-24 13:00:59.691 [ Thread-9 ] - [ INFO  ] [ c.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor : 252 ] - class com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!

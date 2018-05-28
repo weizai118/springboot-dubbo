@@ -1,6 +1,7 @@
-package com.gf.service;
+package com.gf.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.gf.service.TicketService;
 import com.gf.service.UserService;
 import org.springframework.stereotype.Service;
 

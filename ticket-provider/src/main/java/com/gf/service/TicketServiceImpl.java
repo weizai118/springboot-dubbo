@@ -14,10 +14,11 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Service //将服务发布出去
-public class TicketServiceImpl implements TicketService {
+public class TicketServiceImpl implements TicketService{
+
 
     @Override
     public String getTicket(String name) {
-        return name + "买到了《厉害了，我的国》门票！！！";
+        return name +" 买到了《厉害了，我的国》";
     }
 }
